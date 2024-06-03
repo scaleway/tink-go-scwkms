@@ -11,3 +11,7 @@ The official documentation is available at https://developers.google.com/tink.
 2. Check the [example](./integration/scwkms/scw_kms_client_test.go) to use the
    extension. Make sure to replace the client fields with your own
    configuration.
+3. Rather than configuring the provider in-app, you can also use Scaleway's
+   configuration file and environment variables. Check [Scaleway's configuration
+   documentation](https://github.com/scaleway/scaleway-cli/blob/master/docs/commands/config.md)
+   for more details.
