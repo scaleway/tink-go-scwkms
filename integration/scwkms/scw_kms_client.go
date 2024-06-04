@@ -27,7 +27,21 @@ type scwClient struct {
 var _ registry.KMSClient = (*scwClient)(nil)
 
 func NewClient(uriPrefix string) (registry.KMSClient, error) {
-	return NewClientWithOptions(uriPrefix, scw.WithEnv())
+	config, err := scw.LoadConfig()
+	if err != nil {
+		return nil, err
+	}
+
+	activeProfile, err := config.GetActiveProfile()
+	if err != nil {
+		return nil, err
+	}
+
+	return NewClientWithOptions(
+		uriPrefix,
+		scw.WithProfile(activeProfile),
+		scw.WithEnv(),
+	)
 }
 
 func NewClientWithOptions(uriPrefix string, opts ...scw.ClientOption) (registry.KMSClient, error) {
