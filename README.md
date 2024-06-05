@@ -13,5 +13,5 @@ The official documentation is available at https://developers.google.com/tink.
    configuration.
 3. Rather than configuring the provider in-app, you can also use Scaleway's
    configuration file and environment variables. Check [Scaleway's configuration
-   documentation](https://github.com/scaleway/scaleway-cli/blob/master/docs/commands/config.md)
+   documentation](https://www.scaleway.com/en/docs/developer-tools/scaleway-cli/reference-content/scaleway-configuration-file/)
    for more details.
