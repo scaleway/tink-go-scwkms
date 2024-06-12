@@ -8,10 +8,4 @@ The official documentation is available at https://developers.google.com/tink.
 ## Getting Started
 
 1. Create a Key in Scaleway's Key Manager and retrieve its ID.
-2. Check the [example](./integration/scwkms/scw_kms_client_test.go) to use the
-   extension. Make sure to replace the client fields with your own
-   configuration.
-3. Rather than configuring the provider in-app, you can also use Scaleway's
-   configuration file and environment variables. Check [Scaleway's configuration
-   documentation](https://www.scaleway.com/en/docs/developer-tools/scaleway-cli/reference-content/scaleway-configuration-file/)
-   for more details. You can also see full working examples in `examples/`.
+2. Once you have a key ID, you can reuse a full working example in `examples/` to get started.
