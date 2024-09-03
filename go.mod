@@ -3,7 +3,7 @@ module github.com/scaleway/tink-go-scwkms
 go 1.21
 
 require (
-	github.com/scaleway/scaleway-sdk-go v1.0.0-beta.29
+	github.com/scaleway/scaleway-sdk-go v1.0.0-beta.30
 	github.com/tink-crypto/tink-go/v2 v2.2.0
 )
 
