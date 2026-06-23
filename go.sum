@@ -10,6 +10,8 @@ github.com/scaleway/scaleway-sdk-go v1.0.0-beta.30 h1:yoKAVkEVwAqbGbR8n87rHQ1dul
 github.com/scaleway/scaleway-sdk-go v1.0.0-beta.30/go.mod h1:sH0u6fq6x4R5M7WxkoQFY/o7UaiItec0o1LinLCJNq8=
 github.com/scaleway/scaleway-sdk-go v1.0.0-beta.33 h1:KhF0WejiUTDbL5X55nXowP7zNopwpowa6qaMAWyIE+0=
 github.com/scaleway/scaleway-sdk-go v1.0.0-beta.33/go.mod h1:792k1RTU+5JeMXm35/e2Wgp71qPH/DmDoZrRc+EFZDk=
+github.com/scaleway/scaleway-sdk-go v1.0.0-beta.36 h1:ObX9hZmK+VmijreZO/8x9pQ8/P/ToHD/bdSb4Eg4tUo=
+github.com/scaleway/scaleway-sdk-go v1.0.0-beta.36/go.mod h1:LEsDu4BubxK7/cWhtlQWfuxwL4rf/2UEpxXz1o1EMtM=
 github.com/tink-crypto/tink-go/v2 v2.2.0 h1:L2Da0F2Udh2agtKztdr69mV/KpnY3/lGTkMgLTVIXlA=
 github.com/tink-crypto/tink-go/v2 v2.2.0/go.mod h1:JJ6PomeNPF3cJpfWC0lgyTES6zpJILkAX0cJNwlS3xU=
 github.com/tink-crypto/tink-go/v2 v2.4.0 h1:8VPZeZI4EeZ8P/vB6SIkhlStrJfivTJn+cQ4dtyHNh0=

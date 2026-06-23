@@ -1,11 +1,11 @@
 module github.com/scaleway/tink-go-scwkms
 
-go 1.23.0
+go 1.24.0
 
 toolchain go1.24.3
 
 require (
-	github.com/scaleway/scaleway-sdk-go v1.0.0-beta.33
+	github.com/scaleway/scaleway-sdk-go v1.0.0-beta.36
 	github.com/tink-crypto/tink-go/v2 v2.4.0
 )
 
