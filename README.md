@@ -9,3 +9,5 @@ The official documentation is available at https://developers.google.com/tink.
 
 1. Create a Key in Scaleway's Key Manager and retrieve its ID.
 2. Once you have a key ID, you can reuse a full working example in `examples/` to get started.
+
+A tutorial is available here: [Setting up and configuring Tink](https://www.scaleway.com/en/docs/key-manager/api-cli/configuring-tink/).
